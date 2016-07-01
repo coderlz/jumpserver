@@ -16,9 +16,8 @@ import ConfigParser
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 config = ConfigParser.ConfigParser()
-config.read(os.path.join(BASE_DIR,' jumserver.conf'))
+config.read(os.path.join(BASE_DIR,'jumserver.conf'))
 KEY_DIR = os.path.join(BASE_DIR, 'keys')
 
 # Mail config
@@ -153,7 +152,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asian/Shanghai'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

@@ -1,5 +1,6 @@
+#!/usr/bin/python
 __author__ = 'U512464L001'
-#coding:utf-8
+# -*- coding: utf-8 -*-
 
 from django.shortcuts import render
 from juser.models import User
